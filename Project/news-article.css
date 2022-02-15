@@ -1,0 +1,13 @@
+.inner-news-col h3{
+    text-align: left;
+    color: var(--text-color);
+}
+.inner-news-col h3:hover{
+    color: #081080;
+}
+.inner-news-col p{
+    text-align: left;
+}
+.italics{
+    color: var(--text-color)
+}

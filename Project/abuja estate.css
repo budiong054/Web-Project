@@ -1,0 +1,95 @@
+h6{
+    font-size: 20px;
+    color: #081080;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+h2{
+    text-transform: uppercase;
+    font-size: 38px;
+    color: var(--text-color);
+    font-family: var(--h-font);
+    letter-spacing: 2.5px;
+}
+h4{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: var(--h-font);
+    color: #081080;
+    margin-bottom: 15px;
+    font-weight: lighter;
+}
+
+.price-col strong{
+    color: var(--text-color);
+    font-family: var(--p-font);
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    flex: 1;
+}
+.price-col span{
+    font-family: var(--p-font);
+    font-size: 15px;
+}
+em{
+    font-family: var(--p-font);
+    font-style: normal;
+    cursor:grab;
+    color: var(--text-color);
+    font-size: 15px;
+}
+.price-col li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: var(--p-font);
+    color: var(--text-color);
+    font-size: 15px;
+
+}
+.title{
+    margin-top: 100px;
+    text-align: center;
+}
+.Estate{
+    width: 80%;
+    margin: auto;
+}
+.row-one{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0%;
+}
+.img-col{
+    flex-basis: 65%;
+}
+.img-col img{
+    width: 100%;
+}
+.price-col{
+    width: 30%;
+    margin-top: 10px;
+}
+.price-col li{
+    display: flex;
+    margin-bottom: 7px;
+    margin-top: 5px;
+}
+.price-col #blue{
+    margin-top: 50px;
+}
+@media screen and (max-width: 768px) {
+    .row-one{
+        flex-direction: column;
+    }
+    .price-col{
+        width: 100%;
+        display: block;
+    }
+    .img-order{
+        order: 1;
+    }
+    .order{
+        order: 2;
+    }
+}

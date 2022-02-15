@@ -1,0 +1,113 @@
+h2{
+    text-transform: uppercase;
+    font-family: var(--h-font);
+    font-size: 38px;
+    color: var(--text-color);
+    font-weight: normal;
+}
+h3{
+    text-transform: uppercase;
+    font-family: var(--h-font);
+    font-size: 25px;
+    color: var(--text-color);
+    font-weight: 700;
+}
+h4{
+    text-transform: uppercase;
+    font-family: var(--h-font);
+    font-size: 24px;
+    color: var(--text-color);
+    font-weight: normal;
+    margin-bottom: 3%;
+}
+p{
+    font-size: 14.5px;
+    color: #55504b;
+    word-spacing: 2.5px;
+    line-height: 25px;
+}
+.increase{
+    margin-top: 10%;
+}
+h6{
+    font-size: 20px;
+    color: #081080;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+.our-company h2{
+    margin-bottom: 50px;
+}
+
+.our-company{
+    width: 80%;
+    margin: auto;
+}
+.company-col{
+    flex-basis: 47%;
+    margin-bottom: 5%;
+    line-height: 20px;
+}
+.our-company img{
+    width: 100%;
+    /* height: auto; */
+}
+
+
+.Boing-advantage{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.Boing-advantage h2{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.Boing-advantage p{
+    color: var(--text-color);
+}
+
+.directors{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.reduce{
+    margin-top: 0px;
+}
+.directors h2{
+    margin-top: 8%;
+    margin-bottom: 30px;
+}
+.director-col{
+    flex-basis: 70%;
+    text-align: justify;
+}
+.director-img{
+    flex-basis: 22.5%;
+}
+.directors img{
+    width: 100%;
+    height: 320px;
+}
+@media screen and (max-width: 768px) {
+    .two{
+        order: 1;
+    }
+    .one{
+        order: 2;
+    }
+    .increase{
+        margin-top: 30%;
+    }
+    .director-col{
+        text-align: left;
+    }
+    .directors img{
+        width: 100%;
+        height: auto;
+    }
+    .our-company img{
+        height: auto; 
+    }
+}

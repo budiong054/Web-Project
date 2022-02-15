@@ -1,0 +1,10 @@
+.italics{
+    color: #042553;
+}
+.inner-news-col h3{
+    color: black;
+
+}
+.news h3:hover{
+    color: var(--text-color);
+}

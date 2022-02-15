@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@400;600;700&family=PT+Sans+Narrow:wght@400;700&family=Poppins:wght@100;200;300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2e1e844d21.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="Home.html"><img src="/Project/Images/Boing-Logo.png" alt="Boing-Logo"></a>
+            <div class="nav-bar">
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="#">Boing Invest</a></li>
+                    <li class="project-btn"><a href="#">Projects <i class="fa fa-angle-down"></i> </a> 
+                    <div class="dropdown-menu">
+                        <ul>
+                            <li><a href="Home.html">Boing Luxury Apartments</a></li>
+                            <li class="service-btn"><a href="" >Service Plots <i class="fa fa-angle-right"></i></a>
+                            <div class="dropdown-menu">
+                                <ul>
+                                    <li><a href="Port-harcourt.html">Port-Harcourt Estates</a></li>
+                                    <li><a href="Abuja Estates.html">Abuja Estates</a></li>
+                                </ul>
+                            </div>
+                            </li>
+                        </ul>
+                    </div>
+                    </li>
+                    <li><a href="News-article.html">News/Blog</a></li>
+                    <li><a href="#">Boing Jolly Good offer</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    
+                </ul>
+            </div>
+            <i class="fa fa-bars fa" onclick="displayBlock()"></i>
+            <i class="fa fa-search"></i>
+            
+        </nav>
+        
+    </section>
+    <button onclick="topfunction()" id="mybtn" title="Back to Top">
+        <i class="fa fa-angle-up fa-1x"></i>
+    </button>
+
+    <section class="main">
+        <div class="important">
+            <div class="vertical">
+                <p>Care to have a look?</p>
+            </div>
+            <div class="pop">
+                <h2>We know you <br> surely care to <br> inspect first</h2>
+                <div class="btn">
+                    <a href="" class="hero-btn"><p>Book for Inspection</p></a>
+                </div>
+            </div>
+        </div>  
+    </section>
+
+
+    
+
+    <section class="marquee">
+        <div class="marquee-heading">
+            <marquee behavior="" direction=""><h1>Invest in Boing Luxury Apartments. Enjoy A Hassle-free Investment, Just Earn Rental Income.</h1></marquee>
+        </div>
+        <span id="about"></span>
+    </section>
+    <section class="about-us" >
+        <div class="row" >
+            <div class="about-col">
+                <img src="/Project/Images/boing-luxury-estates-2-1.jpg">
+            </div>
+            <div class="about-col">
+                <p><span class="italics">Boing Luxury Estate</span></p>
+                <h2>Why Choose us?</h2>
+                <p>For over 8 years we have been providing housing and Real Estate investment solutions to Individuals, Groups and Corporate bodies, with over 1500 subscribers who have keyed into our fully-gated lifestyle master-planned estates in Port Harcourt, Lagos, and Abuja, we are poised to deliver living environments that guarantee comfort, security, and rest of mind. <br> Get the Boing Advantage, Be Boing Sure!</p>
+                <a href="About.html" class="link"><p class="italics">Know us more <arrow> &#8594;</arrow></p></a>
+            </div>
+        </div>
+        <span id="blog"></span>
+    </section>
+    <!-- <section-counter>
+        <div class="section-counter">
+
+        </div>
+
+    </section-counter> -->
+    <section class="news">
+        <h2>News & Article</h2>
+        <div class="row">
+            <div class="news-col">
+                <div class="figure">
+                    <img src="/Project/Downloaded/farmer.jpg" height="212px">
+                    <div class="layer">
+                        <i class="fa fa-ellipsis-h fa-2x" ></i>
+                    </div>
+                </div>
+                <div class="inner-news-col">
+                    <h3> 5 Lessons property <br> investors can learn from <br> farmers</h3>
+                    <p class="italics">October 21, 2021 </p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus magni voluptatum delectus quo blanditiis, iusto repellendus, perspiciatis, obcaecati a sit repellat in! Ducimus, atque!</p>
+                    <a href="" class="link"><p class="italics">Read more <arrow> &#8594;</arrow></p></a>
+                </div>
+            </div>
+            <div class="news-col">
+                <div class="figure">
+                    <img src="/Project/Downloaded/palative.jpg" height="212px">
+                    <div class="layer">
+                        <i class="fa fa-ellipsis-h fa-2x" ></i>
+                    </div>
+                </div>
+                <div class="inner-news-col">
+                    <h3> Covid-19: Boing reaches <br> out to host communities in <br> rivers state and abuja</h3>
+                    <p class="italics">May 4, 2020 </p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus magni voluptatum delectus quo blanditiis, iusto repellendus, perspiciatis, obcaecati a sit repellat in! Ducimus, atque!</p>
+                    <a href="" class="link"><p class="italics">Read more <arrow> &#8594;</arrow></p></a>
+                </div>
+            </div>
+            <div class="news-col">
+                <div class="figure">
+                    <img src="/Project/Downloaded/ground-breaking.jpg" height="212px">
+                    <div class="layer">
+                        <i class="fa fa-ellipsis-h fa-2x" ></i>
+                    </div>
+                </div>
+                <div class="inner-news-col">
+                    <h3> Port-Harcourt Agog for <br> Boing Luxury Apartments'  <br> ground-breaking ceremony</h3>
+                    <p class="italics">March 3, 2020 </p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus magni voluptatum delectus quo blanditiis, iusto repellendus, perspiciatis, obcaecati a sit repellat in! Ducimus, atque!</p>
+                    <a href="" class="link"><p class="italics">Read more <arrow> &#8594;</arrow></p></a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="news-col">
+                <div class="figure">
+                    <img src="/Project/Downloaded/award.jpg" height="212px">
+                    <div class="layer">
+                        <i class="fa fa-ellipsis-h fa-2x" ></i>
+                    </div>
+                </div>
+                <div class="inner-news-col">
+                    <h3> Boing Luxury Estates' 
+                        CEO <br> Ory Martins, two other <br> Nigeria honored
+                    </h3>
+                    <p class="italics">January 3, 2020 </p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus magni voluptatum delectus quo blanditiis, iusto repellendus, perspiciatis, obcaecati a sit repellat in! Ducimus, atque!</p>
+                    <a href="" class="link"><p class="italics">Read more <arrow> &#8594;</arrow></p></a>
+                </div>
+            </div>
+            <div class="news-col">
+                <div class="figure">
+                    <img src="/Project/Downloaded/future.jpg" height="212px">
+                    <div class="layer">
+                        <i class="fa fa-ellipsis-h fa-2x" ></i>
+                    </div>
+                </div>
+                <div class="inner-news-col">
+                    <h3> Prepare for your furture <br> today - Ory Martins
+                    </h3>
+                    <p class="italics">November 20, 2019 </p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus magni voluptatum delectus quo blanditiis, iusto repellendus, perspiciatis, obcaecati a sit repellat in! Ducimus, atque!</p>
+                    <a href="" class="link"><p class="italics">Read more <arrow> &#8594;</arrow></p></a>
+                </div>
+            </div>
+            <div class="news-col">
+                <div class="figure">
+                    <img src="/Project/Downloaded/no pain.jpg" height="212px">
+                    <div class="layer">
+                        <i class="fa fa-ellipsis-h fa-2x" ></i>
+                    </div>
+                </div>
+                <div class="inner-news-col">
+                    <h3> No pain, no gain
+                    </h3>
+                    <p class="italics">November 20, 2019 </p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus magni voluptatum delectus quo blanditiis, iusto repellendus, perspiciatis, obcaecati a sit repellat in! Ducimus, atque!</p>
+                    <a href="" class="link"><p class="italics">Read more <arrow> &#8594;</arrow></p></a>
+                </div>
+            </div>
+        </div>
+        <div class="btn">
+            <a href="News-article.html" class="hero-btn-1"><p> VIEW ALL NEWS/ARTICLES</p></a>
+        </div>
+    </section>
+        
+    <section class="testimonies">
+        <div class="testimonies-container">
+            <div class="row">
+                <div class="testimonies-col">
+                    <h3 id="quote"><sup>,,</sup></h3>
+                   <p>Good service. Keep it up. Good services, Keep it up.</p>
+                   <p class="italics">Kamange Ben</p>
+                </div>
+                <div class="testimonies-col">
+                    <h3 id="quote"><sup>,,</sup></h3>
+                    <p>Your efforts are commendable given that others tell by the wayside. You are doing well.</p>
+                    <p class="italics">Akemi Felix</p>
+                </div>
+                <div class="testimonies-col">
+                    <h3 id="quote"><sup>,,</sup></h3>
+                    <p>Boing makes clients concerns theirs, they go beyond transaction putting a human face in their operations. This has encouraged me to secure another property with them.</p>
+                    <p class="italics">D. B Ariyamafi<br><span>Subscriber</span> </p>
+                </div >
+            </div>
+        </div>
+        <div id="contact">
+                
+        </div>
+    </section>    
+    
+    <section class="contact-us" >
+        <div class="row">
+            <div class="contact-col">
+                <h3>Contacts</h3>
+                <h6> BOING LUXURY ESTATES</h6>
+                <p><strong>Abuja:</strong> 5th Floor(Left Wing),<br>Nicon Plaza, Muhammadu Buhari Way, CBD <br>———————</p>
+                <p><strong>Portharcourt:</strong> 10, Oheaeto, D/Line <br>Behind CFC/Eco Bank Bus Stop <br> ———————</p>
+                <p><strong>Lagos:</strong> 3A Lalupon Street, off Keffi Street, <br>Awolowo Way, South West, Ikoyi</p>
+                <p>Phone: <a href="tel:+2349055522235"><strong id="small">0905-5522-235</strong></a></p>
+                <p>Email: <a href="mailto:askme@boingestates.com"><strong id="small">askme@boingestates.com</strong></a></p>
+
+
+
+            </div>
+            <!-- <div class="contact-col">
+
+            </div> -->
+            <div class="contact-col">
+                <h3>Quick Channels</h3>
+                <div class="btn">
+                    <a href="" class="hero-btn" id="blue"><p>Chat with us</p></a>
+                </div>
+                <div class="btn">
+                    <a href="" class="hero-btn" id="blue"><p>Book for Inspection Now</p></a>
+                </div>
+                <div class="social-icons">
+                    <a href=""><img src="/Project/Images/facebook-1.png"></a>
+                    <a href=""><img src="/Project/Images/instagram.png"> </a>
+                    <a href=""><img src="/Project/Images/twitter.png"> </a>
+                </div>
+            </div>
+        </div>
+    </section>   
+
+    <section class="footer">
+        <div class="before-footer">
+            <div class="foot-col-1">
+                <a href="" id="border-right">Reserve a plot</a>
+            </div>
+            <div class="border">
+
+            </div>
+            <div class="foot-col-2">
+                <a href="">Chat with us</a>
+            </div>
+        </div>
+        <div class="after-footer">
+            <p><a href="Home.html">Boing Luxury Estates </a>&copy; 2022. All right reserved. | Design by <a href="">BeniTech</a></p>
+        </div>
+    </section>
+    <script>
+        mybutton=document.getElementById("mybtn")
+
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction(){
+            if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500){
+                mybutton.style.display= "block";
+            }
+            else{
+                mybutton.style.display= "none";
+            }
+        }
+
+        function topfunction(){
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop =0;
+        }
+    </script>
+</body>
+</html>
