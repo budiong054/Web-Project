@@ -17,7 +17,7 @@ p{
     font-family: var(--p-font);
 }
 .main{
-    background-image: url(/Project/Downloaded/boing-4.jpeg);
+    background-image: url(https://github.com/budiong054/Web-Project/blob/main/Project/Downloaded/boing-4.jpeg?raw=true);
     filter: brightness(20%);
     filter: hue-rotate(360deg);
     background-position: center;
